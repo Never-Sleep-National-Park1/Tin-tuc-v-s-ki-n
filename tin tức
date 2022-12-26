@@ -1,0 +1,112 @@
+<div id="main">
+
+      <div class="title__section hidden-print">
+        <h1 class="show-inline vertical-align-middle">What we do</h1>
+      </div>
+      <div class="bundle__header">
+        <div class="bundle__desciption">
+          <p>We manage more than 890 protected areas in NSW, covering over 7.5 million hectares of land.
+            This represents more than 9.5 per cent of the land area in the state.
+            This includes national parks, nature reserves, flora reserves, World Heritage areas, rainforests, beaches, alpine areas and sites of great cultural and historic significance. Management of these areas involves a wide range of responsibilities, including plant and animal conservation, fire management, sustainable tourism and visitation, research, education, volunteering programs and more.</p>
+        </div>
+        <img src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/about-npws/what-we-do/what-we-do-about-npws-bundle.jpg?h=443&w=682&la=en&hash=41A5E0457F1824B3643B3038939D851D0218412F" >
+      </div>
+      <section class="listing__items bundle">
+        <article class="listing__item conservation">
+            <img src="">
+          <div class="listing__item__content">
+            <p>NSW National Parks and Wildlife Service (NPWS) produces <a rel="noopener noreferrer" href="https://www.environment.nsw.gov.au/topics/parks-reserves-and-protected-areas/park-management" target="_blank" class="new-window external">plans of management<i class="iea"></i></a> which outline the values of NSW national parks – including biodiversity and Aboriginal culture - and how they’ll be managed. These plans of management are used in conjunction with fire management strategies to protect conservation areas.</p>
+          </div>
+        </article>
+
+
+        <article class="listing__item conservation">
+
+            <img src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/about-npws/managing-national-parks/managing-national-parks-about-npws-01.jpg?w=460&hash=DB15AFB17004FC8B980181C71D1E08427E4B296E">
+          </a>
+
+          <div class="listing__item__content">
+            <h3 class="headingIcon icon standard-page">
+              <a href="https://www.nationalparks.nsw.gov.au/about-npws/conservation-research" class="">Conservation and research<i class="iea"></i></a>
+            </h3>
+            <p>Australia is home to more than 1 million species of Australian animals and Australian native plants, with more than 1,000 of these listed as being at threat of extinction.  NPWS works to collect data to identify the distribution of threatened species and focus conservation efforts in areas of need.</p>
+          </div>
+        </article>
+
+
+        <article class="listing__item conservation">
+
+          <a href="https://www.nationalparks.nsw.gov.au/about-npws/managing-fire-in-parks">
+            <img src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/about-npws/conservation-and-research/conservation-and-research-about-npws-1.jpg?w=460&hash=1825715E3BD4D9AF4B7B638124DBEA46AE179EE7">
+          </a>
+
+          <div class="listing__item__content">
+            <h3 class="headingIcon icon standard-page">
+              <a href="https://www.nationalparks.nsw.gov.au/about-npws/managing-fire-in-parks" class="">Managing fire in parks and reserves<i class="iea"></i></a>
+            </h3>
+            <p>NSW National Parks (NPWS) adopts a strategic approach to managing fires in parks and reserves including research, planning, hazard reduction, rapid response firefighting crews and community alerts.</p>
+          </div>
+        </article>
+
+
+        <article class="listing__item conservation">
+
+          <a href="https://www.nationalparks.nsw.gov.au/about-npws/education">
+            <img src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/about-npws/fire-management/fire-management-about-npws-01.jpg?w=460&hash=68519D43060C125DF5A01A4F18AD51BA9378F8F6">
+          </a>
+
+          <div class="listing__item__content">
+            <h3 class="headingIcon icon standard-page">
+              <a href="https://www.nationalparks.nsw.gov.au/about-npws/education" class="">Education programs<i class="iea"></i></a>
+            </h3>
+            <p>NPWS education programs give students the opportunity to explore NSW national parks and learn about nature, conservation, Aboriginal culture and historic heritage. These syllabus-linked environmental programs are available for primary, secondary and tertiary students. Programs can be delivered at your school through online resources or via school excursions in NSW national parks.</p>
+          </div>
+        </article>
+
+
+        <article class="listing__item things">
+
+          <a href="https://www.nationalparks.nsw.gov.au/conservation-and-heritage/volunteer-programs">
+            <img src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/about-npws/education/about-us-education-04.jpg?w=460&hash=2490DF86B7263F997A772FEEC02F3F8E04C24BD1">
+          </a>
+          <div class="listing__item__content">
+            <h3 class="headingIcon icon bundle">
+              <a href="https://www.nationalparks.nsw.gov.au/conservation-and-heritage/volunteer-programs" class="">Volunteering opportunities <i class="iea"></i></a>
+            </h3>
+            <p>Join us for volunteering opportunities in NSW national parks. Help us protect Australian animals, birds and native plants, and meet new people.</p>
+          </div>
+        </article>
+
+
+        <article class="listing__item conservation">
+
+          <a href="https://www.nationalparks.nsw.gov.au/about-npws/sustainable-tourism">
+            <img src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/high-level-content/volunteering-opportunities/volunteer-opportunities-bundle-page-01.jpg?w=460&hash=845FB6AF5CC8B7EEC43CEE094887B3367C6E63D5">
+          </a>
+
+          <div class="listing__item__content">
+            <h3 class="headingIcon icon standard-page">
+              <a href="https://www.nationalparks.nsw.gov.au/about-npws/sustainable-tourism" class="">Sustainable tourism and visitation<i class="iea"></i></a>
+            </h3>
+            <p>Our national parks are important places for conservation and the community. NSW National Parks and Wildlife Service (NPWS) is committed to providing park experiences that support local communities, and conserve our cultural and natural heritage. Many of our tour providers are ECO-certified by <a target="_blank" href="http://www.ecotourism.org.au/our-certification-programs/eco-certification/" class="new-window external">Ecotourism Australia<i class="iea"></i></a> and can be found on the <a href="http://www.ecotourism.org.au/eco-experiences/green-travel-guide/?sStates=NSW&amp;sCertificationDetailPages=&amp;sExperienceTypes=19-15-2-18-3-1-4-5-9-10-11-12-13-14-16-17-20-21-22&amp;sSearchKey=#mapContents" target="_blank" class="new-window external">Green Travel Guide.<i class="iea"></i></a> Look for the NSW National Parks logo on this website.</p>
+          </div>
+        </article>
+        <article class="listing__item conservation">
+
+          <a href="https://www.nationalparks.nsw.gov.au/about-npws/visitor-infrastructure">
+            <img src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/about-npws/sustainable-tourism/sustainable-tourism-about-npws-01.jpg?w=460&hash=E518FE2BCC10740AFBB45E6ADA7D6162ABA63AD2">
+          </a>
+
+          <div class="listing__item__content">
+            <h3 class="headingIcon icon standard-page">
+              <a href="https://www.nationalparks.nsw.gov.au/about-npws/visitor-infrastructure" class="">New and upgraded infrastructure<i class="iea"></i></a>
+           <img src="https://www.nationalparks.nsw.gov.au/-/media/npws/images/about-npws/visitor-infrastructure/monument-track-arakoon-national-park.jpg?w=460&hash=342A29DC2A82E3546075756F45E21D1E13923E70">
+            </h3>
+            <p>NSW National Parks and Wildlife Service (NPWS) is creating new nature-based experiences for you to enjoy. We're also upgrading tracks, facilities and infrastructure in many of our most popular parks. This is the largest investment in visitor infrastructure in NPWS history.</p>
+          </div>
+        </article>
+
+      </section>
+    </div>
+
+</div>
