@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*   {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body   {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+.boxes {
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: minmax(120px, auto) auto minmax(250px,auto) minmax(1600px, auto) minmax(282px, auto) auto;
+
+    grid-template-areas:
+    "header header header"
+    "img img img"
+    "letter letter letter"
+    "content content content"
+    "infomation infomation infomation"
+    "footer footer footer";
+}
+.item   {
+    min-height: 50px;
+}
+.item-1 {
+    grid-area: header;
+}
+.item-2 {
+    grid-area: img;
+}
+.item-3 {
+    grid-area: letter;
+}
+.item-4 {
+    grid-area: content;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 5px;
+    row-gap: 10px;
+}
+.box {
+    width: 90%;
+    height: 90%;
+    margin: 1px  5.5%;
+}
+/*responsive*/
+@media (max-width: 900px) {
+    .item-4 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+.item-5 {
+    grid-area: infomation;
+}
+.item-6     {
+    grid-area: footer;
+}
+
+.item-5  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+
+}
+.infomation   {
+    width: 85%;
+    height: 300px;
+    margin-top: 0px;
+    margin-left: 8%;
+    margin-right: 4%;
+    margin-bottom: 70px;
+}
+/*responsive*/
+@media (max-width: 900px)   {
+    .item-5 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .infomation {
+        width: 90%;
+        height: 90%;
+        margin: 20px 5.5%;
+    }
+
+}
+#title  {
+    font-family: 'Be Vietnam Pro', sans-serif;
+    padding: 50px;
+    text-align: center;
+}
+#general    {
+    margin: 0px 50px 60px 50px;
+    text-align: center;
+}
+/ css navbar /
+.container-fluid    {
+    background-color: #ffffff;
+}
+#navbarNavDropdown  {
+    font-size: 20px;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+#tim-kiem  {
+    margin-top: 7px;
+}
+/* .d-flex     {
+    padding-left: 30px;
+} */
+/* #navbarNavDropdown ul li a:hover{
+    color: #00FFFF;
+    box-shadow: 0px 15px 10px -10px #00FFFF;
+	transform: translate(0px 0px);
+} */
+#navbarNavDropdown ul li a {
+    box-sizing: content-box;
+}
+/ css content /
+.anh {
+    width: 100%;
+    height: 80%;
+    margin-bottom: 15px;
+}
+h5 {
+    color: black;
+}
+.icon   {
+    float: left;
+}
+.nav-item   {
+    margin-right: 30px;
+}
+.carousel-inner     {
+    width: 100%;
+    height: 80%;
+}
+div.anh {
+    overflow: hidden;
+}
+div.anh img {
+    display: block;
+}
+div.anh a:hover img  {
+    transform: scale(1.1);
+    transition: all 0.8s ease-in-out;
+}
+/ css footer /
+.container{
+    max-width: 1170px;
+    margin: 20px 0 0 0;
+}
+.row-col{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    background-color: #24262b;
+    padding: 50px 0;
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/*responsive*/
+/* @media(min-width:1200px){
+    .footer-col{
+        margin-left: 60px;
+    }
+} */
+@media(max-width: 767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .footer-col{
+        width: 100%;
+    }
+    .footer {
+        margin-top: 20px;
+    }
+}
